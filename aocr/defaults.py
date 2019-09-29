@@ -15,7 +15,7 @@ class Config(object):
     NEW_DATASET_PATH = './dataset.tfrecords'
     DATA_PATH = './data.tfrecords'
     MODEL_DIR = './checkpoints'
-    LOG_PATH = 'aocr.log'
+    LOG_PATH = './logs/aocr.log'
     OUTPUT_DIR = './results'
     STEPS_PER_CHECKPOINT = 100
     EXPORT_FORMAT = 'savedmodel'
